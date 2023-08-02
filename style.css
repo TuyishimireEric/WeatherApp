@@ -107,6 +107,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .weekdays ul li h2 {
@@ -226,19 +227,25 @@ main {
     outline: none;
 }
 
-.search img {
+.search button {
+    background: none;
+    border: none;
     width: 25px;
     position: absolute;
     right: 5px;
     bottom: 50%;
+    background-image: url("./image/11.png");
+    height: 25px;
+    background-size: contain;
     transform: translateY(50%);
-    animation-duration: 200ms;
+    animation: 2s;
     opacity: 0.5;
+    cursor: pointer;
 }
 
-.search img:hover {
+.search button:hover {
     opacity: 0.7;
-    right: 10px;
+    /* transform: scale(1.1); */
 }
 
 .meteo {

@@ -111,6 +111,8 @@ searchForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     
     const location = searchInput.value;
+    if(!location) return;
+
     try {
         await getData(location);
     } catch (error) {
