@@ -9,7 +9,6 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 final-capstone-project-front-end ](#-final-capstone-project-front-end-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -27,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Calculator<a name="about-project"></a>
-The Calculator is a simple web-based tool that performs basic arithmetic operations. It supports addition, subtraction, multiplication, division, and exponentiation. Users can input numerical values and select operators to perform instant calculations. The calculator features decimal functionality and error handling for division by zero. It provides a user-friendly interface with options to clear entries and toggle between positive and negative numbers. A convenient and versatile tool for quick calculations and accurate results.
-![image](https://github.com/TuyishimireEric/Calculator/assets/102757126/79f70caa-7937-4737-9646-465c5713f7a2)
+# 📖 WeatherApp<a name="about-project"></a>
+Stay informed about the weather with our user-friendly weather app! Get real-time forecasts for your location, and accurate and up-to-date weather conditions. Whether you're planning your day or preparing for outdoor activities, our weather app has you covered with all the essential information you need at your fingertips!
+![image](https://github.com/TuyishimireEric/WeatherApp/assets/102757126/14c05c8a-2920-44d2-926d-49b33e5eca7b)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
