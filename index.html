@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./image/favicon.png">
+</head>
+<body>
+    <div class="over"></div>
+    <div class="over" id="loading">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
+    </div>
+    <hr>
+    <div class="toggle">
+        <span class="C"><sup>o</sup>C</span>
+        <span class="F"><sup>o</sup>F</span>
+    </div>
+
+    <header>
+        <div class="title">
+            <h1 id="Location"></h1>
+            <h2 id="condition"></h2>
+        </div>
+        <p id="current_time"></p>
+    </header>
+    <main>
+        <h2 class="temperature" id="temperature">
+        </h2>
+        <form class="search">
+            <input id="search" type="text" placeholder="Search ...">
+            <img src="./image/11.png">
+        </fo>
+    </main>
+        <ul class="meteo">
+            <li>
+                <img src="./image/humidity.png">
+                <p>Feels Like</p>
+                <span class="temp" id="feels"></span></li>
+                <li>
+                    <img src="./image/rainChance.png">
+                    <p>Chance of rain</p>
+                    <span class="temp" id="rain"></span></li>
+                <li>
+                <img src="./image/windW.png">
+                <p>Wind Speed</p>
+                <span class="temp" id="wind"></span></li>
+        </ul>
+    
+    <div class="weekdays">
+        <ul id="forecastday">
+        </ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
